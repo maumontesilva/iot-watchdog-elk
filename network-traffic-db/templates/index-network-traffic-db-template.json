@@ -31,9 +31,9 @@
             "Recv-Q": { "type" : "integer" },
             "Send-Q": { "type" : "integer" },
             "Local": { "type" : "ip" },
-            "LocalPort": { "type" : "short" },
+            "LocalPort": { "type" : "string" },
             "Address": { "type" : "ip" },
-            "AddressPort": { "type" : "short" },
+            "AddressPort": { "type" : "string" },
             "Foreign": { "type" : "string" }
           }
         }
